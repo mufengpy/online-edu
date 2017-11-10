@@ -1,0 +1,2 @@
+orm中，一对一关系一般用于扩展表，但不能重写所以不如继承
+https://www.cnblogs.com/caseast/articles/4806213.html
