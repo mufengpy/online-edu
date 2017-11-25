@@ -401,7 +401,7 @@ CREATE TABLE `django_admin_log` (
 -- ----------------------------
 -- Records of django_admin_log
 -- ----------------------------
-INSERT INTO `django_admin_log` VALUES ('1', '2016-10-24 23:41:17', '3', 'bobby1', '1', '已添加。', '7', '2');
+INSERT INTO `django_admin_log` VALUES ('1', '2016-10-24 23:41:17', '3', 'hy1', '1', '已添加。', '7', '2');
 
 -- ----------------------------
 -- Table structure for django_content_type
@@ -569,8 +569,8 @@ CREATE TABLE `operation_userask` (
 -- ----------------------------
 -- Records of operation_userask
 -- ----------------------------
-INSERT INTO `operation_userask` VALUES ('3', 'bobby', '13548', 'django', '2016-11-03 23:17:38');
-INSERT INTO `operation_userask` VALUES ('4', 'bobby', '18786592568', 'django', '2016-11-03 23:29:26');
+INSERT INTO `operation_userask` VALUES ('3', 'hy', '13548', 'django', '2016-11-03 23:17:38');
+INSERT INTO `operation_userask` VALUES ('4', 'hy', '18786592568', 'django', '2016-11-03 23:29:26');
 
 -- ----------------------------
 -- Table structure for operation_usercourse
@@ -725,8 +725,8 @@ CREATE TABLE `organization_teacher` (
 -- ----------------------------
 -- Records of organization_teacher
 -- ----------------------------
-INSERT INTO `organization_teacher` VALUES ('1', 'bobby', '5', 'xxx', 'xxx', 'xxx', '14', '1', '2016-11-03 23:43:00', '1', 'teacher/2016/11/aobama_CXWwMef.png', '18');
-INSERT INTO `organization_teacher` VALUES ('2', '还是bobby', '5', 'xxx', 'xxx', 'xxx', '2', '1', '2016-11-03 23:44:00', '1', 'teacher/2016/11/aobama.png', '18');
+INSERT INTO `organization_teacher` VALUES ('1', 'hy', '5', 'xxx', 'xxx', 'xxx', '14', '1', '2016-11-03 23:43:00', '1', 'teacher/2016/11/aobama_CXWwMef.png', '18');
+INSERT INTO `organization_teacher` VALUES ('2', '还是hy', '5', 'xxx', 'xxx', 'xxx', '2', '1', '2016-11-03 23:44:00', '1', 'teacher/2016/11/aobama.png', '18');
 
 -- ----------------------------
 -- Table structure for users_banner
@@ -768,7 +768,7 @@ CREATE TABLE `users_emailverifyrecord` (
 -- Records of users_emailverifyrecord
 -- ----------------------------
 INSERT INTO `users_emailverifyrecord` VALUES ('6', 'admin', 'xxx@qq.com', 'register', '2016-10-25 23:13:00');
-INSERT INTO `users_emailverifyrecord` VALUES ('8', 'bobby', 'admin@admin.com', 'forget', '2016-10-25 23:26:00');
+INSERT INTO `users_emailverifyrecord` VALUES ('8', 'hy', 'admin@admin.com', 'forget', '2016-10-25 23:26:00');
 INSERT INTO `users_emailverifyrecord` VALUES ('9', '3XMbn5Owwv6tc6mc', 'projectsedu@sina.com', 'register', '2016-10-30 22:52:56');
 INSERT INTO `users_emailverifyrecord` VALUES ('10', 'xul6s2tlQMW6o38E', 'projectsedu@sina.com', 'register', '2016-10-30 22:57:43');
 INSERT INTO `users_emailverifyrecord` VALUES ('11', 'ekB9xHRNDng9wlHq', 'projectsedu@sina.com', 'register', '2016-10-30 23:02:20');
@@ -807,8 +807,8 @@ CREATE TABLE `users_userprofile` (
 -- ----------------------------
 -- Records of users_userprofile
 -- ----------------------------
-INSERT INTO `users_userprofile` VALUES ('2', 'pbkdf2_sha256$24000$F1yNeo5gRaWI$6TxfkDeHwc0X25DLCBI8O5W7exiud1Zz9FW8xtrPHSE=', '2016-12-11 22:42:34', '1', 'bobby', '', '', 'projectsedu@sina.com', '1', '1', '2016-10-24 14:58:33', 'django', '2009-09-02', 'female', '我来自火星', '', 'image/2016/12/default_big_14.png');
-INSERT INTO `users_userprofile` VALUES ('3', 'admin123', '2016-10-30 23:40:00', '0', 'bobby1', '', '', '', '0', '1', '2016-10-24 23:40:00', 'bobby', '2016-10-05', 'female', '慕课网', '', 'image/default.png');
+INSERT INTO `users_userprofile` VALUES ('2', 'pbkdf2_sha256$24000$F1yNeo5gRaWI$6TxfkDeHwc0X25DLCBI8O5W7exiud1Zz9FW8xtrPHSE=', '2016-12-11 22:42:34', '1', 'hy', '', '', 'projectsedu@sina.com', '1', '1', '2016-10-24 14:58:33', 'django', '2009-09-02', 'female', '我来自火星', '', 'image/2016/12/default_big_14.png');
+INSERT INTO `users_userprofile` VALUES ('3', 'admin123', '2016-10-30 23:40:00', '0', 'hy1', '', '', '', '0', '1', '2016-10-24 23:40:00', 'hy', '2016-10-05', 'female', '慕课网', '', 'image/default.png');
 INSERT INTO `users_userprofile` VALUES ('6', 'pbkdf2_sha256$24000$fqNxJK7sfjE4$pcomeAWpo2AQtFIYq68wpqWszR+FMquouz731Xnc4q4=', '2016-11-08 22:44:00', '0', 'projectsedu1@sina.com', '', '', 'projectsedu1@sina.com', '1', '1', '2016-10-30 23:01:00', 'projectsedu', null, 'female', '北京市', '', 'image/default.png');
 
 -- ----------------------------

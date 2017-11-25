@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-__author__ = 'bobby'
+__author__ = 'hy'
 
 from django.conf.urls import url, include
 

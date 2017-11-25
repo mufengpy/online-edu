@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-__author__ = 'bobby'
+__author__ = 'hy'
 __date__ = '2016/10/29 23:01'
 from django import forms
 from captcha.fields import CaptchaField

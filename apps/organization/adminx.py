@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-__author__ = 'bobby'
+__author__ = 'hy'
 __date__ = '2016/10/25 23:52'
 import xadmin
 
